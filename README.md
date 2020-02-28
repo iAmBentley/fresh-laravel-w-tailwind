@@ -44,13 +44,13 @@ npm install && npm run dev
 mysql -uroot -p
 **** (enter your mysql password)
 create database new-db-name;
-show tables; // to confirm it was created
+show databases; // to confirm it was created
 exit;
 ```
 
 7. Create and Modify a .Env File
 
-Technically not creating the file, but rather coping and modifiy it.
+Technically not creating the file, but rather coping and modify it.
 
 ```shell
 cp .env.example .env
